@@ -1,0 +1,23 @@
+[project]
+name = "witchwell"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["httpx>=0.28.1"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"] # pycodestyle, pyflakes, isort, pyupgrade
+
+[tool.pyright]
+pythonVersion = "3.12"
+typeCheckingMode = "basic" # promote to "standard" when MVP stabilizes
+venvPath = "."
+venv = ".venv"
+
+[dependency-groups]
+dev = ["pyright>=1.1.409", "pytest>=9.0.3", "ruff>=0.15.13"]
