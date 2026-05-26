@@ -7,3 +7,7 @@ qdrant-ping:
 qdrant-collections:
     curl -s "$QDRANT_URL/collections" \
       -H "api-key: $QDRANT_API_KEY" | python3 -m json.tool
+
+push:
+    git push
+    git push space
