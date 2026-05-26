@@ -1,0 +1,152 @@
+[
+  {
+    "query": "destroy target creature",
+    "expected": ["Murder", "Cast Down", "Terminate", "Doom Blade", "Go for the Throat"],
+    "archetype": "lexical"
+  },
+  {
+    "query": "draw two cards",
+    "expected": ["Divination", "Counsel of the Soratami", "Inspiration", "Concentrate", "Think Twice"],
+    "archetype": "lexical"
+  },
+  {
+    "query": "return target creature to its owner's hand",
+    "expected": ["Unsummon", "Vapor Snag", "Boomerang", "Echoing Truth", "Into the Roil"],
+    "archetype": "lexical"
+  },
+  {
+    "query": "counter target spell",
+    "expected": ["Counterspell", "Cancel", "Negate", "Mana Leak", "Essence Scatter"],
+    "archetype": "lexical"
+  },
+  {
+    "query": "exile target nonland permanent",
+    "expected": ["Swords to Plowshares", "Path to Exile", "Generous Gift", "Oblivion Ring", "Banishing Light"],
+    "archetype": "lexical"
+  },
+  {
+    "query": "each player discards their hand",
+    "expected": ["Windfall", "Wheel of Fortune", "Wheel of Fate", "Reforge the Soul", "Magus of the Wheel"],
+    "archetype": "lexical"
+  },
+  {
+    "query": "deal 3 damage to any target",
+    "expected": ["Lightning Bolt", "Shock", "Incinerating Blast", "Volcanic Hammer", "Flame Slash"],
+    "archetype": "lexical"
+  },
+  {
+    "query": "search your library for a basic land put it onto the battlefield",
+    "expected": ["Cultivate", "Kodama's Reach", "Farseek", "Rampant Growth", "Nature's Lore"],
+    "archetype": "lexical"
+  },
+  {
+    "query": "ramp into big creatures",
+    "expected": ["Cultivate", "Kodama's Reach", "Rampant Growth", "Explore", "Farseek"],
+    "archetype": "functional"
+  },
+  {
+    "query": "card draw engine",
+    "expected": ["Rhystic Study", "Phyrexian Arena", "Sylvan Library", "Necropotence", "Mystic Remora"],
+    "archetype": "functional"
+  },
+  {
+    "query": "protect your creatures from removal",
+    "expected": ["Swiftfoot Boots", "Lightning Greaves", "Heroic Intervention", "Asceticism", "Sylvan Safekeeper"],
+    "archetype": "functional"
+  },
+  {
+    "query": "wipe the board",
+    "expected": ["Wrath of God", "Damnation", "Day of Judgment", "Blasphemous Act", "Toxic Deluge"],
+    "archetype": "functional"
+  },
+  {
+    "query": "win through dealing combat damage to players",
+    "expected": ["Embercleave", "Hatred", "Tainted Strike", "Temur Battle Rage", "Berserk"],
+    "archetype": "functional"
+  },
+  {
+    "query": "recur creatures from graveyard",
+    "expected": ["Animate Dead", "Reanimate", "Unearth", "Resurrection", "Persist"],
+    "archetype": "functional"
+  },
+  {
+    "query": "token generation for wide board",
+    "expected": ["Raise the Alarm", "Lingering Souls", "Secure the Wastes", "Decree of Justice", "Martial Coup"],
+    "archetype": "functional"
+  },
+  {
+    "query": "ramp",
+    "expected": ["Cultivate", "Kodama's Reach", "Sol Ring", "Arcane Signet", "Rampant Growth"],
+    "archetype": "jargon"
+  },
+  {
+    "query": "counterspell",
+    "expected": ["Counterspell", "Mana Drain", "Force of Will", "Pact of Negation", "Swan Song"],
+    "archetype": "jargon"
+  },
+  {
+    "query": "removal",
+    "expected": ["Swords to Plowshares", "Path to Exile", "Murder", "Doom Blade", "Fatal Push"],
+    "archetype": "jargon"
+  },
+  {
+    "query": "draw",
+    "expected": ["Brainstorm", "Ponder", "Preordain", "Opt", "Serum Visions"],
+    "archetype": "jargon"
+  },
+  {
+    "query": "tutor",
+    "expected": ["Demonic Tutor", "Vampiric Tutor", "Enlightened Tutor", "Mystical Tutor", "Worldly Tutor"],
+    "archetype": "jargon"
+  },
+  {
+    "query": "haste enabler",
+    "expected": ["Lightning Greaves", "Swiftfoot Boots", "Fires of Yavimaya", "Concordant Crossroads", "Mass Hysteria"],
+    "archetype": "jargon"
+  },
+  {
+    "query": "aristocrats payoff sacrifice outlet",
+    "expected": ["Viscera Seer", "Carrion Feeder", "Altar of Dementia", "Phyrexian Altar", "Ashnod's Altar"],
+    "archetype": "design_pattern"
+  },
+  {
+    "query": "aristocrats death trigger payoff",
+    "expected": ["Blood Artist", "Zulaport Cutthroat", "Falkenrath Noble", "Poison-Tip Archer", "Bastion of Remembrance"],
+    "archetype": "design_pattern"
+  },
+  {
+    "query": "storm combo enabler",
+    "expected": ["Manamorphose", "Gitaxian Probe", "Cabal Ritual", "Dark Ritual", "Rite of Flame"],
+    "archetype": "design_pattern"
+  },
+  {
+    "query": "stax tax opponent resources",
+    "expected": ["Sphere of Resistance", "Thorn of Amethyst", "Trinisphere", "Thalia Guardian of Thraben", "Lodestone Golem"],
+    "archetype": "design_pattern"
+  },
+  {
+    "query": "voltron equipment buff commander",
+    "expected": ["Sunforger", "Sword of Fire and Ice", "Umezawa's Jitte", "Hammer of Nazahn", "Colossus Hammer"],
+    "archetype": "design_pattern"
+  },
+  {
+    "query": "landfall triggered ability",
+    "expected": ["Lotus Cobra", "Omnath Locus of Rage", "Tireless Tracker", "Retreat to Coralhelm", "Scute Swarm"],
+    "archetype": "design_pattern"
+  },
+  {
+    "query": "ETB flicker value",
+    "expected": ["Eternal Witness", "Cloudblazer", "Mulldrifter", "Restoration Angel", "Venser the Sojourner"],
+    "archetype": "design_pattern"
+  },
+  {
+    "query": "spellslinger instant sorcery payoff",
+    "expected": ["Guttersnipe", "Talrand Sky Summoner", "Murmuring Mystic", "Monastery Mentor", "Young Pyromancer"],
+    "archetype": "design_pattern"
+  },
+  {
+    "query": "graveyard fill self mill",
+    "expected": ["Stitcher's Supplier", "Satyr Wayfinder", "Grisly Salvage", "Buried Alive", "Entomb"],
+    "archetype": "design_pattern"
+  }
+]
